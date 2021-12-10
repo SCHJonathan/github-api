@@ -1,0 +1,50 @@
+{
+  "id": "c9e7d150-dd6a-459d-bab5-54c3371f2a25",
+  "name": "repos_schjonathan_temp_ghissuetest_issues",
+  "request": {
+    "url": "/repos/SCHJonathan/Temp_GHIssueTest/issues?state=all",
+    "method": "GET",
+    "headers": {
+      "Accept": {
+        "equalTo": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "repos_schjonathan_temp_ghissuetest_issues-5.json",
+    "headers": {
+      "Server": "GitHub.com",
+      "Date": "Fri, 10 Dec 2021 01:01:04 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Cache-Control": "private, max-age=60, s-maxage=60",
+      "Vary": [
+        "Accept, Authorization, Cookie, X-GitHub-OTP",
+        "Accept-Encoding, Accept, X-Requested-With"
+      ],
+      "ETag": "W/\"0184060af899a5ba0088d9dd688536db266330ad455c0220f18845b9650f6eb7\"",
+      "X-OAuth-Scopes": "admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, delete:packages, delete_repo, gist, notifications, repo, user, workflow, write:discussion, write:packages",
+      "X-Accepted-OAuth-Scopes": "repo",
+      "github-authentication-token-expiration": "2021-12-21 21:11:14 UTC",
+      "X-GitHub-Media-Type": "unknown, github.v3",
+      "X-RateLimit-Limit": "5000",
+      "X-RateLimit-Remaining": "4831",
+      "X-RateLimit-Reset": "1639099753",
+      "X-RateLimit-Used": "169",
+      "X-RateLimit-Resource": "core",
+      "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+      "X-Frame-Options": "deny",
+      "X-Content-Type-Options": "nosniff",
+      "X-XSS-Protection": "0",
+      "Referrer-Policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+      "Content-Security-Policy": "default-src 'none'",
+      "X-GitHub-Request-Id": "D32A:485A:2A3AB6:709F22:61B2A6D0"
+    }
+  },
+  "uuid": "c9e7d150-dd6a-459d-bab5-54c3371f2a25",
+  "persistent": true,
+  "scenarioName": "scenario-1-repos-SCHJonathan-Temp_GHIssueTest-issues",
+  "requiredScenarioState": "scenario-1-repos-SCHJonathan-Temp_GHIssueTest-issues-2",
+  "newScenarioState": "scenario-1-repos-SCHJonathan-Temp_GHIssueTest-issues-3",
+  "insertionIndex": 5
+}

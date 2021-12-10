@@ -79,13 +79,31 @@ public class GHIssue extends GHObject implements Reactable {
         return this;
     }
 
+    private String getRepositoryUrlPath() {
+        String url = getUrl().toString();
+        int tailIndex = url.indexOf("/issues");
+        if (tailIndex == -1) {
+            tailIndex = url.indexOf("/pulls");
+        }
+        return url.substring(0, tailIndex);
+    }
+
     /**
      * Repository to which the issue belongs.
+     * CS427 Issue link: https://github.com/hub4j/github-api/issues/1218
      *
      * @return the repository
      */
     @SuppressFBWarnings(value = { "EI_EXPOSE_REP" }, justification = "Expected behavior")
     public GHRepository getRepository() {
+        try {
+            if (owner == null) {
+                String repositoryUrl = getRepositoryUrlPath();
+                wrap(root().createRequest().withUrlPath(repositoryUrl).fetch(GHRepository.class));
+            }
+        } catch (IOException exception) {
+            throw new GHException("[getRepository] failed to fetch repository data", exception);
+        }
         return owner;
     }
 

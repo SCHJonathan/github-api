@@ -1,0 +1,55 @@
+{
+  "id": "b6cbfdcb-6c17-4e9f-a709-33e9e011069d",
+  "name": "repos_schjonathan_temp_ghissuetest_issues_1_comments",
+  "request": {
+    "url": "/repos/SCHJonathan/Temp_GHIssueTest/issues/1/comments",
+    "method": "POST",
+    "headers": {
+      "Accept": {
+        "equalTo": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "equalToJson": "{\"body\":\"testIssue#1Comment#1\"}",
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": false
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "repos_schjonathan_temp_ghissuetest_issues_1_comments-4.json",
+    "headers": {
+      "Server": "GitHub.com",
+      "Date": "Fri, 10 Dec 2021 01:01:17 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Cache-Control": "private, max-age=60, s-maxage=60",
+      "Vary": [
+        "Accept, Authorization, Cookie, X-GitHub-OTP",
+        "Accept-Encoding, Accept, X-Requested-With"
+      ],
+      "ETag": "\"9a1263b2dfdb570f96ecc017bba60bc13f7accc67c0a8557efd72325d9453e24\"",
+      "X-OAuth-Scopes": "admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, delete:packages, delete_repo, gist, notifications, repo, user, workflow, write:discussion, write:packages",
+      "X-Accepted-OAuth-Scopes": "",
+      "github-authentication-token-expiration": "2021-12-21 21:11:14 UTC",
+      "X-GitHub-Media-Type": "unknown, github.v3",
+      "X-RateLimit-Limit": "5000",
+      "X-RateLimit-Remaining": "4813",
+      "X-RateLimit-Reset": "1639099753",
+      "X-RateLimit-Used": "187",
+      "X-RateLimit-Resource": "core",
+      "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+      "X-Frame-Options": "deny",
+      "X-Content-Type-Options": "nosniff",
+      "X-XSS-Protection": "0",
+      "Referrer-Policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+      "Content-Security-Policy": "default-src 'none'",
+      "X-GitHub-Request-Id": "D33E:32A5:2970B0:698279:61B2A6DC",
+      "Location": "https://api.github.com/repos/SCHJonathan/Temp_GHIssueTest/issues/comments/990469520"
+    }
+  },
+  "uuid": "b6cbfdcb-6c17-4e9f-a709-33e9e011069d",
+  "persistent": true,
+  "insertionIndex": 4
+}

@@ -1,0 +1,55 @@
+{
+  "id": "28c3aa92-6190-47b6-848e-5ad20f4ed38c",
+  "name": "repos_schjonathan_temp_ghissuetest_issues",
+  "request": {
+    "url": "/repos/SCHJonathan/Temp_GHIssueTest/issues",
+    "method": "POST",
+    "headers": {
+      "Accept": {
+        "equalTo": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "equalToJson": "{\"assignees\":[],\"title\":\"testIssue#1\",\"labels\":[]}",
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": false
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "repos_schjonathan_temp_ghissuetest_issues-3.json",
+    "headers": {
+      "Server": "GitHub.com",
+      "Date": "Fri, 10 Dec 2021 01:00:56 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Cache-Control": "private, max-age=60, s-maxage=60",
+      "Vary": [
+        "Accept, Authorization, Cookie, X-GitHub-OTP",
+        "Accept-Encoding, Accept, X-Requested-With"
+      ],
+      "ETag": "\"0cd2b29a0ac9787b7fdbdac49b3680279ce43a897829bdf972e761dec8637d96\"",
+      "X-OAuth-Scopes": "admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, delete:packages, delete_repo, gist, notifications, repo, user, workflow, write:discussion, write:packages",
+      "X-Accepted-OAuth-Scopes": "",
+      "github-authentication-token-expiration": "2021-12-21 21:11:14 UTC",
+      "X-GitHub-Media-Type": "unknown, github.v3",
+      "X-RateLimit-Limit": "5000",
+      "X-RateLimit-Remaining": "4847",
+      "X-RateLimit-Reset": "1639099753",
+      "X-RateLimit-Used": "153",
+      "X-RateLimit-Resource": "core",
+      "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+      "X-Frame-Options": "deny",
+      "X-Content-Type-Options": "nosniff",
+      "X-XSS-Protection": "0",
+      "Referrer-Policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+      "Content-Security-Policy": "default-src 'none'",
+      "X-GitHub-Request-Id": "D314:6360:36271C:6A1E99:61B2A6C6",
+      "Location": "https://api.github.com/repos/SCHJonathan/Temp_GHIssueTest/issues/1"
+    }
+  },
+  "uuid": "28c3aa92-6190-47b6-848e-5ad20f4ed38c",
+  "persistent": true,
+  "insertionIndex": 3
+}

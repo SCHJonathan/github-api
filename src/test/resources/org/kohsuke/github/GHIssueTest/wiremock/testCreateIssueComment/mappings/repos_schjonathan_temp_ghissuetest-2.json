@@ -1,0 +1,48 @@
+{
+  "id": "c4604767-41d8-431b-b42c-773facf5ddc6",
+  "name": "repos_schjonathan_temp_ghissuetest",
+  "request": {
+    "url": "/repos/SCHJonathan/Temp_GHIssueTest",
+    "method": "GET",
+    "headers": {
+      "Accept": {
+        "equalTo": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "repos_schjonathan_temp_ghissuetest-2.json",
+    "headers": {
+      "Server": "GitHub.com",
+      "Date": "Fri, 10 Dec 2021 01:01:16 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Cache-Control": "private, max-age=60, s-maxage=60",
+      "Vary": [
+        "Accept, Authorization, Cookie, X-GitHub-OTP",
+        "Accept-Encoding, Accept, X-Requested-With"
+      ],
+      "ETag": "W/\"a92d03f6afeab806dbc1ba25dc6dca1462c72896bc53bdc159081596ed20f7b8\"",
+      "Last-Modified": "Fri, 10 Dec 2021 01:01:15 GMT",
+      "X-OAuth-Scopes": "admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, delete:packages, delete_repo, gist, notifications, repo, user, workflow, write:discussion, write:packages",
+      "X-Accepted-OAuth-Scopes": "repo",
+      "github-authentication-token-expiration": "2021-12-21 21:11:14 UTC",
+      "X-GitHub-Media-Type": "unknown, github.v3",
+      "X-RateLimit-Limit": "5000",
+      "X-RateLimit-Remaining": "4815",
+      "X-RateLimit-Reset": "1639099753",
+      "X-RateLimit-Used": "185",
+      "X-RateLimit-Resource": "core",
+      "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+      "X-Frame-Options": "deny",
+      "X-Content-Type-Options": "nosniff",
+      "X-XSS-Protection": "0",
+      "Referrer-Policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+      "Content-Security-Policy": "default-src 'none'",
+      "X-GitHub-Request-Id": "D33C:5E48:4CE1A:1413FD:61B2A6DC"
+    }
+  },
+  "uuid": "c4604767-41d8-431b-b42c-773facf5ddc6",
+  "persistent": true,
+  "insertionIndex": 2
+}

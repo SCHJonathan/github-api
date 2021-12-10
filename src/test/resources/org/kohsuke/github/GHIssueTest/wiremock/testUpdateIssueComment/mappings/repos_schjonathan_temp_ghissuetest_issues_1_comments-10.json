@@ -1,0 +1,49 @@
+{
+  "id": "d1e6f91a-d4d8-49b4-9ef9-c36a0f3027f1",
+  "name": "repos_schjonathan_temp_ghissuetest_issues_1_comments",
+  "request": {
+    "url": "/repos/SCHJonathan/Temp_GHIssueTest/issues/1/comments",
+    "method": "GET",
+    "headers": {
+      "Accept": {
+        "equalTo": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "repos_schjonathan_temp_ghissuetest_issues_1_comments-10.json",
+    "headers": {
+      "Server": "GitHub.com",
+      "Date": "Fri, 10 Dec 2021 01:00:58 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Cache-Control": "private, max-age=60, s-maxage=60",
+      "Vary": [
+        "Accept, Authorization, Cookie, X-GitHub-OTP",
+        "Accept-Encoding, Accept, X-Requested-With"
+      ],
+      "ETag": "W/\"17cecbaa35e3098fa5171526c61db67d49b6f7259576109b8373a2594ed4c755\"",
+      "X-OAuth-Scopes": "admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, delete:packages, delete_repo, gist, notifications, repo, user, workflow, write:discussion, write:packages",
+      "X-Accepted-OAuth-Scopes": "",
+      "github-authentication-token-expiration": "2021-12-21 21:11:14 UTC",
+      "X-GitHub-Media-Type": "unknown, github.v3",
+      "X-RateLimit-Limit": "5000",
+      "X-RateLimit-Remaining": "4841",
+      "X-RateLimit-Reset": "1639099753",
+      "X-RateLimit-Used": "159",
+      "X-RateLimit-Resource": "core",
+      "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+      "X-Frame-Options": "deny",
+      "X-Content-Type-Options": "nosniff",
+      "X-XSS-Protection": "0",
+      "Referrer-Policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+      "Content-Security-Policy": "default-src 'none'",
+      "X-GitHub-Request-Id": "D31B:32A3:21D08A:49BE89:61B2A6CA"
+    }
+  },
+  "uuid": "d1e6f91a-d4d8-49b4-9ef9-c36a0f3027f1",
+  "persistent": true,
+  "scenarioName": "scenario-2-repos-SCHJonathan-Temp_GHIssueTest-issues-1-comments",
+  "requiredScenarioState": "scenario-2-repos-SCHJonathan-Temp_GHIssueTest-issues-1-comments-3",
+  "insertionIndex": 10
+}
